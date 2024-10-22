@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 
 class CustomDropdown extends StatelessWidget {
-  final List<String> _options = ['Pilihan 1', 'Pilihan 2', 'Pilihan 3'];
-  String _selectedOption = 'Pilihan 1';
+  final List<String> _options = ['Kalau tidak milih saya', 'Ya pilih saya', 'Masa gak milih'];
+  String _selectedOption = 'Kalau tidak milih saya';
   
   @override
   Widget build(BuildContext context) {

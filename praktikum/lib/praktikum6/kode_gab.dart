@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 class KodeGab extends StatefulWidget {
@@ -34,7 +36,7 @@ class _KodeGabState extends State<KodeGab> {
             ),
             ElevatedButton(
               onPressed: () {
-                print('Nama: $_name, Umur: $_age');
+                log('Nama: $_name, Umur: $_age');
               },
               child: Text('Submit'),
             ),

@@ -26,7 +26,7 @@ class _CallBackState extends State<CallBack> {
             ElevatedButton(
               onPressed: () {
                 _setState();
-                log('Awwww saya diklik!');
+                log('Value saya jadi $_sliderValue');
               },
               child: Text('Klik Saya'),
             ),
@@ -37,7 +37,7 @@ class _CallBackState extends State<CallBack> {
               onChanged: (newValue) {
                 // Incrementing the slider value
                 _setState();
-                log('Nilai slider: $_sliderValue'); // Log updated slider value
+                log('Nilai slider digeser: $_sliderValue'); // Log updated slider value
               },
             ),
             // Displaying the slider value for reference
