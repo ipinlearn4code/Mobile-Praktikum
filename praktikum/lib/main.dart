@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:praktikum/praktikum11/login_page.dart';
+import 'package:praktikum/praktikum11/register_page.dart';
 import 'package:praktikum/praktikum5/column_eg.dart';
 import 'package:praktikum/praktikum5/expanded_eg.dart';
 import 'package:praktikum/praktikum5/flexible_eg.dart';
@@ -58,7 +60,7 @@ class MyApp extends StatelessWidget {
       // home: LemparDataHalaman(),
       routes: {
         // simplenav
-        '/': (context) => SharedPrefDarkMode(),
+        '/': (context) => RegisterPage(),
         '/second': (context) => SecondPageNav(),
 
         // '/': (context) => LemparDataHalaman(),
