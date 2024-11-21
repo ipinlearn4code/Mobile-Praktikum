@@ -17,6 +17,8 @@ import 'package:praktikum/praktikum7/second_page_data.dart';
 import 'package:praktikum/praktikum7/second_page_nav.dart';
 import 'package:praktikum/praktikum7/simple_nav.dart';
 import 'package:praktikum/praktikum8/httpExamples.dart';
+import 'package:praktikum/praktikum8/imageenetwork.dart';
+import 'package:praktikum/praktikum8/shared_pref_dark_mode.dart';
 import 'package:praktikum/praktikum8/shared_preference_examples.dart';
 
 void main() {
@@ -56,7 +58,7 @@ class MyApp extends StatelessWidget {
       // home: LemparDataHalaman(),
       routes: {
         // simplenav
-        '/': (context) => SharedPreferenceExamples(),
+        '/': (context) => SharedPrefDarkMode(),
         '/second': (context) => SecondPageNav(),
 
         // '/': (context) => LemparDataHalaman(),
